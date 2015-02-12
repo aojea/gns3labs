@@ -1,0 +1,17 @@
+Feb 04 09:14:44.539 HYPERVISOR: Release 0.2.14-amd64/Linux (tag 2014092320)
+Feb 04 09:14:44.539 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 7200.
+Feb 04 09:14:44.546 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 04 09:14:44.547 HYPERVISOR: exec_cmd: hypervisor uuid 
+Feb 04 09:14:44.547 HYPERVISOR: exec_cmd: hypervisor working_dir /home/itsuugo/GNS3/projects/p1/p1-files/dynamips 
+Feb 04 09:14:44.547 GENERAL: working_dir=/home/itsuugo/GNS3/projects/p1/p1-files/dynamips
+Feb 04 09:14:44.548 HYPERVISOR: exec_cmd: ethsw create SW1 
+Feb 04 09:14:49.909 HYPERVISOR: exec_cmd: nio create_udp_auto nio_udp_auto0 127.0.0.1 10001 20000 
+Feb 04 09:14:49.930 HYPERVISOR: exec_cmd: nio connect_udp_auto nio_udp_auto0 127.0.0.1 30001 
+Feb 04 09:14:49.930 HYPERVISOR: exec_cmd: ethsw add_nio SW1 nio_udp_auto0 
+Feb 04 09:14:49.950 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 nio_udp_auto0 1 
+Feb 04 09:14:53.304 HYPERVISOR: exec_cmd: nio create_udp_auto nio_udp_auto1 127.0.0.1 10001 20000 
+Feb 04 09:14:53.324 HYPERVISOR: exec_cmd: nio connect_udp_auto nio_udp_auto1 127.0.0.1 30002 
+Feb 04 09:14:53.324 HYPERVISOR: exec_cmd: ethsw add_nio SW1 nio_udp_auto1 
+Feb 04 09:14:53.330 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 nio_udp_auto1 1 
+Feb 04 09:23:46.649 HYPERVISOR: Stopped.
+Feb 04 09:23:46.681 GENERAL: reset done.
