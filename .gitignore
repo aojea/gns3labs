@@ -9,4 +9,7 @@ nvram*
 *log
 !NETMAP
 !*.cfg
+!*.gns3
+!*.png
+!*.md
 
