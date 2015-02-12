@@ -1,0 +1,20 @@
+#Ignore all
+*
+
+# Linux
+.*
+!.gitignore
+!.htaccess
+*~
+
+# But not GNS3 configs
+!NETMAP
+!*.cfg
+!*.gns3
+!*.png
+!*.md
+!*.ini
+
+# Consider subdirectories
+!*/
+
