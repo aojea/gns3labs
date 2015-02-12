@@ -7,4 +7,6 @@
 # GNS3
 nvram*
 *log
+!NETMAP
+!*.cfg
 
