@@ -6,6 +6,8 @@
 !.gitignore
 !.htaccess
 *~
+# Tests subdir
+p1/
 
 # But not GNS3 configs
 !NETMAP
