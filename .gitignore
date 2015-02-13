@@ -1,6 +1,3 @@
-#Ignore all
-*
-
 # Linux
 .*
 !.gitignore
@@ -8,16 +5,5 @@
 *~
 # Tests subdir
 p1/
-
-# But not GNS3 configs
-!NETMAP
-!*.cfg
-!*.gns3
-!*.png
-!*.md
-!*.ini
-!nvram*
-
-# Consider subdirectories
-!*/
+*.log
 
