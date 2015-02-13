@@ -4,7 +4,7 @@ Based in Vicent Bernat lab http://vincent.bernat.im/en/blog/2011-dns-anycast.htm
 
 Core routers are IOL Linux.
 
-DNS servers are Quagga Linux. 
+DNS servers are TinyCore Linux. 
 
 PC users:
 
